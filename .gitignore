@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.mitmproxy/
+# vendor/shaka-player.fixed.compiled.js is committed so A/B works offline.
+# Refresh it with ./refresh-fixed-build.sh <shaka-checkout>.
